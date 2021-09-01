@@ -1,0 +1,33 @@
+{
+  "name": "webpack-dev-typescript-phaser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "scripts": {
+    "start": "npx webpack serve --config webpack.config.js",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "core-js": "^3.16.4",
+    "phaser": "^3.55.2",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "description": "A small boilerplate for phaser with typescript, webpack and babel",
+  "repository": "https://github.com/CorentinDeblock/webpack-dev-phaser-typescript.git",
+  "author": "Corentin Deblock"
+}
